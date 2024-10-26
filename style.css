@@ -1,0 +1,26 @@
+.one{
+    border: 1px solid green;
+    border-width: 5px;
+        display: flex;
+       height: 50vh;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;  
+        background-color: palevioletred;  
+        color: green;
+}
+.two{
+     border: 1px solid green;
+    border-width: 5px;
+        display: flex;
+       height: 50vh;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;  
+        background-color: blue;  
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+}
+
