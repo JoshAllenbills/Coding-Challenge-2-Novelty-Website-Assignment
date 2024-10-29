@@ -23,4 +23,30 @@
         color:black;
         font-family: 'Times New Roman', Times, serif;
 }
-
+button {
+    width: 400px;
+    height: 400px;
+    font-size: 60px;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+button {
+    animation: spin 2s linear infinite;
+        background-color: lightblue;
+        color: white;
+}
+.three{
+    border: 1px solid green;
+    border-width: 5px;
+        display: flex;
+       height: 50vh;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;  
+        background-color: orange;  
+        color:aquamarine;
+        font-family: 'Times New Roman', Times, serif;
+}
