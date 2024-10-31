@@ -50,3 +50,19 @@ button {
         color:aquamarine;
         font-family: 'Times New Roman', Times, serif;
 }
+@keyframes moveRight {
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+.clown{
+position: fixed;
+top: 50%;
+left: 1%;
+transform: translate(-50%,-50%);
+width: 50px;
+animation: moveRight 10s linear infinite;
+}
