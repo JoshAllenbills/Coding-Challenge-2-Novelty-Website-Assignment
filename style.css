@@ -66,3 +66,8 @@ transform: translate(-50%,-50%);
 width: 50px;
 animation: moveRight 10s linear infinite;
 }
+button {
+    width: 400px;
+    height: 400px;
+    font-size: 60px;
+}
